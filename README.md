@@ -17,6 +17,7 @@ Here's a breakdown of the code:
 The **\n** in the input prompts is used to add a newline character, creating a new line for each prompt to make the interaction more readable in the console.
 
 # Py:2 EMI Calculator.
+**EMI Formula: [P x R x (1+R)^N]/[(1+R)^N-1]**
 
 **User Input:** The program prompts the user to enter the total loan amount, rate of interest, and tenure in months.
 
