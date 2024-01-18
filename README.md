@@ -1,4 +1,4 @@
-# Py:1 Fullname printer.
+# Py:1 Fullname Printer.
 
 This Python code is a simple program that prompts the user to enter their **first name, middle name, and last name**. It uses the **input** function to take user input and assigns each input to variables fname, mname, and lname respectively.
 
@@ -15,6 +15,20 @@ Here's a breakdown of the code:
 **print("Your full name is "+ fname + " " + mname + " " + lname)**: This line prints the user's full name by concatenating the variables fname, mname, and lname with spaces in between.
 
 The **\n** in the input prompts is used to add a newline character, creating a new line for each prompt to make the interaction more readable in the console.
+
+# Py:2 EMI Calculator.
+
+**User Input:** The program prompts the user to enter the total loan amount, rate of interest, and tenure in months.
+
+**Conversion of Interest Rate:** The annual interest rate is converted to a monthly decimal rate by dividing it by 12 and then by 100.
+
+**Compounding Factor Calculation:** The compounding factor (1+R)^N is calculated using the input values.
+
+**EMI Calculation:** The EMI is then calculated using the provided formula.
+
+**Display Result:** The calculated EMI is rounded to two decimal places and displayed to the user.
+
+This script allows a user to input the necessary details of their loan, and it calculates and displays the monthly EMI using the EMI formula. Note that the input values are assumed to be valid, and the script does not perform extensive error checking.
 
 
 
