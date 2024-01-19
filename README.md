@@ -31,6 +31,9 @@ The **\n** in the input prompts is used to add a newline character, creating a n
 
 This script allows a user to input the necessary details of their loan, and it calculates and displays the monthly EMI using the EMI formula. Note that the input values are assumed to be valid, and the script does not perform extensive error checking.
 
+# Py:3 Guess Game.
+In this example, the player thinks of a number, and the computer uses a binary search algorithm to guess the number. The player provides feedback after each guess, indicating whether the guess is too high or too low. The computer adjusts its guess accordingly until it finds the correct number.
+
 
 
 
