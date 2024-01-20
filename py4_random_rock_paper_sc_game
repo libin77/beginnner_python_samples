@@ -47,11 +47,3 @@ rules = [["Tie","Wins","Lose"],["Wins","Tie","Lose"],["Lose","Wins","Tie"]]
 
 #Result
 print(f"You {rules[player_choice][computer_choice]}")
-
-def print_choice(choice):
-  if(choice==0):
-    print(rock)
-  elif(choice==1):
-    print(paper)
-  else:
-    print(scissors)
