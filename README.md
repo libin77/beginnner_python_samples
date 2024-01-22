@@ -34,6 +34,9 @@ This script allows a user to input the necessary details of their loan, and it c
 # Py:3 Guess Game.
 In this example, the player thinks of a number, and the computer uses a binary search algorithm to guess the number. The player provides feedback after each guess, indicating whether the guess is too high or too low. The computer adjusts its guess accordingly until it finds the correct number.
 
+# Py:4 Rock, Paper, Scissors Game using Random and nested list.
+# Py:5 Random Password Generator using loop.
+
 
 
 
