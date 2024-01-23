@@ -36,6 +36,7 @@ In this example, the player thinks of a number, and the computer uses a binary s
 
 # Py:4 Rock, Paper, Scissors Game using Random and nested list.
 # Py:5 Random Password Generator using loop.
+# Py:6 Maze Game (Reeborg's World) using Functions and while loop.
 
 
 
