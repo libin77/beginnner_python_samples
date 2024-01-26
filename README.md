@@ -38,6 +38,7 @@ In this example, the player thinks of a number, and the computer uses a binary s
 # Py:5 Random Password Generator using loop.
 # Py:6 Maze Game (Reeborg's World) using Functions and while loop.
 # Py: 8 Caesar Cipher using Functions with Parameter
+# Py: 9 Silent Bidding or Blind Bidding with Dictionaries
 
 
 
