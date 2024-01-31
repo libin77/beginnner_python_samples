@@ -16,6 +16,8 @@
   Dictionaries
 # Py: 10 Calculator.
   Functions with output, Docstring, Recursion
+# Py: 12 Guess the number
+  Scope: Glocal scope, local scope
 
 
 
