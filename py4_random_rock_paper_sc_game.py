@@ -45,7 +45,7 @@ print_choice(player_choice)
 computer_choice = random.randint(0, 2)
 print_choice(computer_choice)
 
-# Rules
+# Rules Nested List - 2D
 rules = [["Tie", "Wins", "Lose"], ["Wins", "Tie", "Lose"], ["Lose", "Wins", "Tie"]]
 
 # Result
