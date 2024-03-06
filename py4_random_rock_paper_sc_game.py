@@ -1,6 +1,6 @@
 import random
 
-#rock-paper-scissors
+# rock-paper-scissors
 rock = '''
     _______
 ---'   ____)
@@ -27,23 +27,26 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-#print choice
+
+
+# print choice
 def print_choice(choice):
-  if(choice==0):
-    print(rock)
-  elif(choice==1):
-    print(paper)
-  else:
-    print(scissors)
-    
-#choice
+    if choice == 0:
+        print(rock)
+    elif choice == 1:
+        print(paper)
+    else:
+        print(scissors)
+
+
+# choice
 player_choice = int(input("Choose Rock(0), Paper(1), Scissors(2) : "))
 print_choice(player_choice)
-computer_choice = random.randint(0,2)
+computer_choice = random.randint(0, 2)
 print_choice(computer_choice)
 
-#Rules
-rules = [["Tie","Wins","Lose"],["Wins","Tie","Lose"],["Lose","Wins","Tie"]]
+# Rules
+rules = [["Tie", "Wins", "Lose"], ["Wins", "Tie", "Lose"], ["Lose", "Wins", "Tie"]]
 
-#Result
+# Result
 print(f"You {rules[player_choice][computer_choice]}")
